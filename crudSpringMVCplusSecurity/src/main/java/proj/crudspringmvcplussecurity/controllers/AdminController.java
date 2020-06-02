@@ -26,10 +26,7 @@ import proj.crudspringmvcplussecurity.model.UserProfile;
 import proj.crudspringmvcplussecurity.service.UserProfileService;
 import proj.crudspringmvcplussecurity.service.UserService;
 
-/**
- *
- * @author Mina
- */
+
 @Controller
 @RequestMapping("/")
 @SessionAttributes("roles")
