@@ -12,10 +12,7 @@ import org.springframework.stereotype.Component;
 import proj.crudspringmvcplussecurity.model.UserProfile;
 import proj.crudspringmvcplussecurity.service.UserProfileService;
 
-/**
- *
- * @author Mina
- */
+
 @Component
 public class RoleToUserProfileConverter implements Converter<Object, UserProfile>{
     
