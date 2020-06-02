@@ -12,10 +12,7 @@ import org.springframework.transaction.annotation.Transactional;
 import proj.crudspringmvcplussecurity.dao.UserDao;
 import proj.crudspringmvcplussecurity.model.User;
 
-/**
- *
- * @author Mina
- */
+
 @Service("userService")
 @Transactional
 public class UserServiceImpl implements UserService{
