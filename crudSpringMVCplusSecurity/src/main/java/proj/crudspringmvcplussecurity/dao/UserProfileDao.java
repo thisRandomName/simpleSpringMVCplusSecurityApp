@@ -7,10 +7,7 @@ package proj.crudspringmvcplussecurity.dao;
 import java.util.List;
 import proj.crudspringmvcplussecurity.model.UserProfile;
 
-/**
- *
- * @author Mina
- */
+
 public interface UserProfileDao {
         List<UserProfile> findAll();
 	
