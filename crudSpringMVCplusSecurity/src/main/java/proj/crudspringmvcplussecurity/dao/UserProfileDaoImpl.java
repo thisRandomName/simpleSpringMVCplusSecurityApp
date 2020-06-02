@@ -13,10 +13,7 @@ import org.hibernate.criterion.Restrictions;
 import org.springframework.stereotype.Repository;
 import proj.crudspringmvcplussecurity.model.UserProfile;
 
-/**
- *
- * @author Mina
- */
+
 @Repository("userProfileDao")
 public class UserProfileDaoImpl extends AbstractDao<Integer, UserProfile>implements UserProfileDao{
     public UserProfile findById(int id) {
