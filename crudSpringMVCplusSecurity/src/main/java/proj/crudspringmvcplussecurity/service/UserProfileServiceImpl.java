@@ -8,10 +8,7 @@ import org.springframework.transaction.annotation.Transactional;
 import proj.crudspringmvcplussecurity.dao.UserProfileDao;
 import proj.crudspringmvcplussecurity.model.UserProfile;
 
-/**
- *
- * @author Mina
- */
+
 @Service("userProfileService")
 @Transactional
 public class UserProfileServiceImpl implements UserProfileService{
